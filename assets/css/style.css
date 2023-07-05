@@ -90,11 +90,33 @@ main{
     padding: 15px;
     width: calc(100%/3);
     height: 500px;
+    margin-bottom: 2.5rem;
 }
 
 .col img{
-    width: 100%;
+    height: 450px;
 }
+
+.brand, .sales, .full_price{
+    font-size: 10px;
+}
+
+.brand{
+    color: var(--bld-darker);
+}
+
+h5{
+    color:var(--bld-black);
+}
+
+.sales{
+    color: var(--bld-sales_price);
+}
+
+.full_price{
+    text-decoration: line-through;
+}
+/*#endregion main*/
 
 /*#region Footer*/
 
@@ -114,3 +136,4 @@ footer a{
     margin-bottom: 10px;
     font-size: 10px;
 }
+/*#endregion footer*/
