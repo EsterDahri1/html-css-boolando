@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+:foot{
+    --bld-white: #ffffff;
+    --bld-light: #fff9f4;
+    --bld-black: #000000;
+    --bld-darker: #060406;
+    --bld-dark: #1a1a1a;
+    --bld-bg-header: #ff6900;
+    --bld-bg-percent: #ff0000;
+    --bld-sales_price: #ff1815;
+    --bld-bg-offer: #008000;
+}
+
 .d-flex{
     display: flex;
     flex-wrap: wrap;
