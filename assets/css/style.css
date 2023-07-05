@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-:foot{
+:root{
     --bld-white: #ffffff;
     --bld-light: #fff9f4;
     --bld-black: #000000;
@@ -29,67 +29,53 @@
     padding: 3.5rem;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
 /*#endregion Common*/
 
-/*#region Debug*/
-.debug header{
-    min-height: 50px;
-    width:100%;
-    /*position:fixed;*/
-    background-color: orangered;
-}
-
-.debug .header_container {
-    background-color: yellow;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.debug .client, .debug .account{
-    border-style: dashed;
-    width: 20%;
-}
-
-.debug .logo {
-    border-style: dashed;
-    width: 60%;
-}
-
-.debug .container{
-    background-color: yellow;
-    width: 80%;
-    margin: auto;
-}
-
-.debug footer{
-    background-color: rgba(20, 20, 20, 0.701);
-    min-height: 130px;
-}
-/*#endregion Debug*/
-
 /*#region Header*/
+
+#page_header{
+    max-height: 100px;
+    width:100%;
+    background-color: var(--bld-bg-header);
+    /*position:fixed;*/
+    color: var(--bld-light);
+    font-size: 15px;
+}
 
 .header_container{
     width:80%;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 20px;
 }
 
 .client, .logo, .account{
     min-height: 50px;
-    
 }
+
+header a{
+    text-decoration: none;
+    color: var(--bld-light);
+    padding: 0 0.2rem;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
 /*#endregion Header*/
 
 /*#region Main*/
 
 main{
-    background-color: beige;
+    background-color: var(--bld-white);
 }
 
 .col {
@@ -104,3 +90,6 @@ main{
 
 
 
+footer{
+    background-color: var(--bld-dark);
+}
