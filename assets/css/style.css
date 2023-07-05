@@ -7,3 +7,51 @@
 }
 
 /*#endregion Common*/
+
+/*#region Debug*/
+.debug header{
+    min-height: 50px;
+    width:100%;
+    position:fixed;
+    background-color: orangered;
+}
+
+.debug .container-sm {
+    background-color: yellow;
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug .client, .debug .account{
+    border-style: dashed;
+    width: 20%;
+}
+
+.debug .logo {
+    border-style: dashed;
+    width: 60%;
+}
+
+.debug main{
+    
+}
+/*#endregion Debug*/
+
+/*#region Main*/
+
+.container-sm{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client, .logo, .account{
+    min-height: 50px;
+    
+}
+/*#endregion Main*/
