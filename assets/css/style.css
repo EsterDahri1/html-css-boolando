@@ -15,7 +15,7 @@
     --bld-bg-header: #ff6900;
     --bld-bg-percent: #ff0000;
     --bld-sales_price: #ff1815;
-    --bld-bg-offer: #008000;
+    --bld-bg-sust: #008000;
 }
 
 .d-flex{
@@ -95,6 +95,14 @@ main{
 
 .col img{
     height: 450px;
+}
+
+#leviscol:hover{
+    background: url(../assets/img/1b.webp) no-repeat;
+}
+
+#Guess:hover{
+    background-image: url(../img/2b.webp);
 }
 
 .brand, .sales, .full_price{
