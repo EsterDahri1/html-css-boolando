@@ -42,9 +42,11 @@ body{
     max-height: 100px;
     width:100%;
     background-color: var(--bld-bg-header);
-    /*position:fixed;*/
     color: var(--bld-light);
     font-size: 15px;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5)
 }
 
 .header_container{
@@ -78,6 +80,12 @@ main{
     background-color: var(--bld-white);
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
 .col {
     padding: 15px;
     width: calc(100%/3);
@@ -88,8 +96,21 @@ main{
     width: 100%;
 }
 
-
+/*#region Footer*/
 
 footer{
     background-color: var(--bld-dark);
+    color: var(--bld-light);
+    max-height: 130px;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--bld-light);
+}
+
+.name, .findus, .rights{
+    margin-bottom: 10px;
+    font-size: 10px;
 }
