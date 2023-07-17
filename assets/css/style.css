@@ -56,6 +56,10 @@ body{
     align-items: center;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .img-fluid{
     max-width: 100%;
 }
@@ -90,7 +94,8 @@ header {
 .departments a{
     text-decoration: none;
     color: var(--bld-white);
-    padding: 0 5px;;
+    padding: 0 5px;
+    font-size: 0.8rem;
 }
 
 .departments a:hover{
@@ -179,6 +184,37 @@ header {
 
 /*#region Footer*/
 #site_footer{
-    background-color: var(--bld-darker);
+    background-color: var(--bld-dark);
+    color: var(--bld-light);
+    max-height: 130px;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--bld-light);
+}
+
+.name{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.findus{
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.rights{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.rights a{
+    padding-right: 10px;
+}
+
+.social a{
+    padding-left: 5px;
 }
 /*#endregion Footer*/
