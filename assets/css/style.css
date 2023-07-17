@@ -96,9 +96,15 @@ main{
 .col img{
     height: 450px;
 }
+.card{
+    position: relative;
+}
 
+.like{
+    position: absolute;
+}
 #leviscol:hover{
-    background: url(../assets/img/1b.webp) no-repeat;
+    content: url(../assets/img/1b.webp) no-repeat;
 }
 
 #Guess:hover{
@@ -123,6 +129,20 @@ h5{
 
 .full_price{
     text-decoration: line-through;
+}
+
+.like{
+    position: absolute;
+    top:10px 0;
+    right:0;
+    background-color: var(--bld-white);
+    color: var(--bld-black);
+    width:1.5rem;
+    aspect-ratio: 1/1;
+    text-align: center;
+    line-height:1.5rem;
+    padding: 0.25rem;
+    box-shadow: -2px 0 5px;
 }
 /*#endregion main*/
 
